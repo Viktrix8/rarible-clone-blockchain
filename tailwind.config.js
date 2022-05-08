@@ -4,7 +4,14 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Nunito': ['Nunito', 'sans-serif'],
+      },
+      colors: {
+        'primary-gray': 'rgb(38,38,38)',
+      }
+    },
   },
   plugins: [],
 }
